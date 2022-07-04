@@ -20,7 +20,7 @@ export default function CategoryItem({ data, favorite }){
 
             <Image 
             style={styles.icon}
-            source={{uri:`https://univc-api.herokuapp.com${data?.attributes?.icon?.data?.attributes?.url}`}}
+            source={{uri:`${data?.attributes?.icon?.data?.attributes?.url}`}}
             />
 
             <Text style={styles.name}>{data?.attributes?.name}</Text>

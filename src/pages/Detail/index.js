@@ -74,7 +74,7 @@ export default function Detail() {
             <Image
                 resizeMode="cover"
                 style={styles.cover}
-                source={{ uri: `https://univc-api.herokuapp.com${post?.attributes?.cover?.data?.attributes?.url}` }} />
+                source={{ uri: `${post?.attributes?.cover?.data?.attributes?.url}` }} />
 
             <Text style={styles.title}>
                 {post?.attributes?.title}

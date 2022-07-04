@@ -19,7 +19,7 @@ export default function FavoritePost({data}){
         >
            
            <ImageBackground
-           source={{uri: `https://univc-api.herokuapp.com${data?.attributes?.cover?.data?.attributes?.url}`}}
+           source={{uri: `${data?.attributes?.cover?.data?.attributes?.url}`}}
            style={styles.cover}
            resizeMode="cover"
            blurRadius={3}

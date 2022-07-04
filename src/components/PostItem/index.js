@@ -17,7 +17,7 @@ const navigation = useNavigation();
             <View style={styles.header}>
                 <Image
                     style={styles.cover}
-                    source={{ uri: `https://univc-api.herokuapp.com${data?.attributes?.cover?.data?.attributes?.url}` }}
+                    source={{ uri: `${data?.attributes?.cover?.data?.attributes?.url}` }}
                 />
             </View>
 
